@@ -7,7 +7,7 @@ const MobileSideBar = ({ toggle, setToggle }) => {
   return (
     <>
       <aside
-        className={`fixed top-0 ${toggle ? "left-0 " : "-left-full"} duration-300 bg-[#111111] h-full w-10/12 py-10 px-8`}
+        className={`fixed top-0 ${toggle ? "left-0 " : "-left-full"} duration-300 bg-[#111111] h-full w-10/12 py-10 px-8 z-30`}
       >
         <div className="flex flex-col relative">
           <div>
