@@ -12,7 +12,7 @@ const Banner = () => {
               Sustainable Tomorrow<span className="text-[#EE0000]">.</span>
             </h1>
           </div>
-        </div>
+        </div> 
       </Container>
     </section>
   );
