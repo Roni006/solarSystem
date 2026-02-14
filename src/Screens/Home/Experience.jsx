@@ -34,20 +34,24 @@ const Experience = () => {
   ];
   return (
     <>
-      <section className="py-28.75">
+      <section className="py-20 lg:py-28.75">
         <Container>
           <div>
             <div>
-              <h2 className="font-bold text-[50px] leading-21.25 text-[#131313] font-poppins pb-6.25">
+              <h2 className="font-bold text-[30px] leading-10 lg:text-[50px] lg:leading-21.25  text-[#131313] font-poppins pb-6.25 lg:pt-12.5 ">
                 Our Expertise and Experience
               </h2>
             </div>
-            <div className="flex items-center justify-between gap-7 ">
+            <div className="flex flex-col md:flex-wrap md:flex-row items-center justify-between  gap-7 md:gap-3 ">
               {experience.map((card, index) => (
-                <div className="relative overflow-hidden ">
-                    <img className="w-full h-full " src={card.ContentImg} alt="" />
-                  <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(180deg,rgba(19,19,19,1)11%,rgba(19,19,19,0.21)100%)] py-6.5 px-5.5 rounded-[10px]">
-                    <h3 className="text-[24px] font-bold leading-6 text-white pb-4.5">
+                <div className=" w-full md:w-[48%] lg:w-auto relative overflow-hidden ">
+                  <img
+                    className="w-full h-full "
+                    src={card.ContentImg}
+                    alt=""
+                  />
+                  <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(180deg,rgba(19,19,19,1)11%,rgba(19,19,19,0.21)100%)] lg:py-6.5 lg:px-5.5 md:py-10.5 md:px-10.5 rounded-[10px]">
+                    <h3 className=" md:text-[40px] text-[24px] font-bold leading-6 lg:leading-10 text-white pb-4.5">
                       {card.title}
                     </h3>
                     <p className="text-base font-normal leading-5.5 text-white">
