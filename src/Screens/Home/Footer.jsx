@@ -1,8 +1,7 @@
 import React from "react";
 import Container from "../../Components/Common/Container";
 import logo from "../../assets/logo.png";
-import { FaPhone } from "react-icons/fa6";
-// import { IoMailSharp } from "react-icons/io5";
+import { FaPhone } from "react-icons/fa6"; 
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
